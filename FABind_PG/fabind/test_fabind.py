@@ -230,7 +230,7 @@ model = get_model(args, logger, device)
 
 model = accelerator.prepare(model)
 # from safetensors.torch import load_model
-# load_model(model,'/home/tinama/project/FABind-clean/fabing-pg/model.safetensors')
+# load_model(model,'/home/tinama/project/FABind_PG/fabing-pg/model.safetensors')
 model.load_state_dict(torch.load(args.ckpt))
 
 if args.pred_dis:
