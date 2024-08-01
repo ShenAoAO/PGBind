@@ -1,0 +1,50 @@
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /home/tinama/project/FABind/fabind
+fabind_inference.py --ckpt ../ckpt/best_model.bin --batch_size 4 --seed 128 --test-gumbel-soft --redocking --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /home/tinama/project/FABind/fabind
+fabind_inference.py --ckpt ./ckpt/best_model.bin --batch_size 4 --seed 128 --test-gumbel-soft --redocking --post-optim --write-mol-to-file --sdf-output-path-post-optim ./inference_examples/inference_output --index-csv ./inference_examples/example.csv --preprocess-dir ./inference_examples/temp_files
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /home/tinama/project/FABind/fabind
+fabind_inference.py --ckpt ./ckpt/best_model.bin --batch_size 4 --seed 128 --test-gumbel-soft --redocking --post-optim --write-mol-to-file --sdf-output-path-post-optim ./inference_examples/inference_output --index-csv ./inference_examples/example.csv --preprocess-dir ./inference_examples/temp_files
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /home/tinama/project/FABind/fabind
+fabind_inference.py --ckpt /home/tinama/project/FABind/ckpt/best_model.bin --batch_size 4 --seed 128 --test-gumbel-soft --redocking --post-optim --write-mol-to-file --sdf-output-path-post-optim /home/tinama/project/FABind/inference_examples/inference_output --index-csv /home/tinama/project/FABind/inference_examples --preprocess-dir /home/tinama/project/FABind/inference_examples/temp_files
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /home/tinama/project/FABind/fabind
+fabind_inference.py --ckpt /home/tinama/project/FABind/ckpt/best_model.bin --batch_size 4 --seed 128 --test-gumbel-soft --redocking --post-optim --write-mol-to-file --sdf-output-path-post-optim /home/tinama/project/FABind/inference_examples/inference_output --index-csv /home/tinama/project/FABind/inference_examples/example.csv --preprocess-dir /home/tinama/project/FABind/inference_examples/temp_files
